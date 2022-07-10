@@ -16,24 +16,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a2p-JW-rVb" userLabel="View 1">
-                                <rect key="frame" x="16" y="59" width="382" height="386"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2p-JW-rVb" userLabel="View 1">
+                                <rect key="frame" x="16" y="60" width="382" height="385"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gma-nm-way" userLabel="View 2">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gma-nm-way" userLabel="View 2">
                                 <rect key="frame" x="16" y="461" width="382" height="385"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gma-nm-way" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="EHE-9o-GdN"/>
+                            <constraint firstItem="gma-nm-way" firstAttribute="top" secondItem="a2p-JW-rVb" secondAttribute="bottom" constant="16" id="JoR-WS-ON7"/>
+                            <constraint firstItem="a2p-JW-rVb" firstAttribute="height" secondItem="gma-nm-way" secondAttribute="height" id="LB1-KI-D2b"/>
+                            <constraint firstItem="a2p-JW-rVb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="OQE-lt-5AC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gma-nm-way" secondAttribute="bottom" constant="16" id="dLO-0C-j2M"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gma-nm-way" secondAttribute="trailing" constant="16" id="eFy-Nc-znh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a2p-JW-rVb" secondAttribute="trailing" constant="16" id="kdU-e4-ZhX"/>
+                            <constraint firstItem="a2p-JW-rVb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rIx-Ga-72P"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="70"/>
+            <point key="canvasLocation" x="28.125" y="68.661971830985919"/>
         </scene>
     </scenes>
     <resources>
